@@ -17,7 +17,7 @@ public class Address {
     }
 
     public String getCity(){
-        return this.street;
+        return this.city;
     }
 
     public String getState(){

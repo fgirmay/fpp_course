@@ -7,7 +7,7 @@ public class Main {
         // Address: 1000 N 4th St, Fairfield, IA 52557
         Address address1 = new Address("1000 N 4th St", "Fairfield", "Iowa", "52557");
         Address address2 = new Address("1300 S 6th St", "Addis Ababa", "Addis Ababa", "90320");
-        Address address3 = new Address("3498 E 7th St", "Chicago", "Chicago", "344298");
+        Address address3 = new Address("3498 E 7th St", "Chicago", "Illinois", "344298");
 
         //Create three instances of customer
         Customer[] customers = new Customer[3];
@@ -28,11 +28,8 @@ public class Main {
         customers[2] = customer3;
 
         for (int i = 0; i < customers.length; i++) {
-
-            System.out.print(customers[2].getBillingAddress().getCity());
-
             if (customers[i].getBillingAddress().getCity().equals("Chicago")){
-                System.out.print(customers[i]);
+                System.out.println(customers[i]);
             }
         }
 
