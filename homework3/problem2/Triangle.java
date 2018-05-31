@@ -3,7 +3,7 @@ public final class Triangle {
     private final double base;
     private final double height;
 
-    public Triangle(doulbe base, doulbe height) {
+    public Triangle(double base, double height) {
         this.base = base;
         this.height = height;
     }
@@ -15,7 +15,7 @@ public final class Triangle {
     public double getBase() {
         return this.base;
     }
-    public doulbe getHeight() {
+    public double getHeight() {
         return this.height;
     }
 }
