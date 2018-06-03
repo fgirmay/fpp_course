@@ -8,7 +8,7 @@ public class Prog8 {
         System.out.println("The result is " + result);
     }
 
-    public static int getMinimum(int[] {
+    public static int getMinimum(int[] input){
 
         int min = 0;
         if (input != null && input.length > 0) {
