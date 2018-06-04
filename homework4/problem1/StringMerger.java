@@ -4,11 +4,6 @@ package problem1;
  * Created by fissehaye on 6/1/18.
  */
 
-//Using recursive approach merge two sorted string into a single sorted string.
-//Note : Your input should be a sorted input string. Example : String1 = “ ace ”
-//String2 = “ bdf ”
-//Output : “ abcdef ”
-
 public class StringMerger {
 
     StringBuilder result = new StringBuilder();
@@ -16,11 +11,12 @@ public class StringMerger {
     public static void main(String[] args) {
 
         System.out.println(new StringMerger().mergeStrings("adfxyz", "bcemno"));
-        System.out.println(new StringMerger().mergeStrings("aeefhissy", "aahksy"));
+        System.out.println(new StringMerger().mergeStrings("ba", "aahksy"));
 
 
     }
 
+    // The two input arguments are asssumed to be sorted
     public String mergeStrings(String input1, String input2) {
 
         if (input1 == null && input2 == null) {

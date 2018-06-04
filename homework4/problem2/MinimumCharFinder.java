@@ -10,22 +10,23 @@ public class MinimumCharFinder {
     public static void main(String[] args) {
 
         MinimumCharFinder mcf = new MinimumCharFinder();
-        String input = "FissehAye";
+        String input = "fissehaye";
         char c = mcf.getMinimumChar(input);
 
         System.out.println("The minimum character from the input " + input + " is " + c);
 
     }
 
+    /*
+        It is assumed that cases are not ignored. For example, Z is smaller than a.
+     */
     public char getMinimumChar(String str) {
-        char minimumCharacter = str.charAt(0);
-        minimumCharacter = getMinimumChar(str, minimumCharacter);
-        return minimumCharacter;
+        minimumCharacter = str.charAt(0);
+        return getMinimumChar(str, str.charAt(0));
     }
 
     private char getMinimumChar(String str, char c) {
-
-        minimumCharacter = c;
+        //minimumCharacter = c;
         if (str.length() == 0) {
             return minimumCharacter;
         } else {
@@ -35,7 +36,6 @@ public class MinimumCharFinder {
             str = str.substring(1);
             getMinimumChar(str, minimumCharacter);
         }
-
         return minimumCharacter;
     }
 }

@@ -15,11 +15,14 @@ public class PalindromeChecker {
 
     }
 
+    /*
+        The method check if a string is palindrome ignoring cases and spaces. All other characters such as commas are not ignored.
+        For example, "Ma,m" is not palindrome to "Mam because of the comma. But "Mam" is palindrome to "Ma m"
+     */
     public boolean isPalindrome(String string) {
 
         string = string.toUpperCase();
 
-        //Base case 1
         if ("".equals(string)) {
             return true;
         }

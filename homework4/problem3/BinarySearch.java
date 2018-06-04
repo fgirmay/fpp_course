@@ -5,42 +5,45 @@ package problem3;
  */
 public class BinarySearch {
 
-    private int objectIndex;
+    private int valueIndex;
     private int[] list;
     private int value;
-    private boolean isObjectFound;
+    private boolean isValueFound;
 
     public static void main(String[] args) {
 
         BinarySearch bs = new BinarySearch();
         bs.list = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         bs.value = 10;
-        bs.objectIndex = bs.binarySearch(bs.list, bs.value);
+        bs.valueIndex = bs.binarySearch(bs.list, bs.value);
 
-        System.out.println(bs.objectIndex);
+        System.out.println(bs.valueIndex);
     }
 
-    public int binarySearch(int[] objects, int object) {
+    /*
+        The method makes binary search of a given int value from an array of integers
+     */
+    public int binarySearch(int[] list, int value) {
 
-        this.list = objects;
-        this.value = object;
+        this.list = list;
+        this.value = value;
 
         int leftIndex = 0;
-        int rightIndex = objects.length;
+        int rightIndex = list.length;
 
         int middleIndex = (leftIndex + rightIndex) / 2;
-        objectIndex = binarySearch(leftIndex, middleIndex, rightIndex);
+        valueIndex = binarySearch(leftIndex, middleIndex, rightIndex);
 
-        return objectIndex;
+        return valueIndex;
     }
 
     public int binarySearch(int leftIndex, int middleIndex, int rightIndex) {
 
-        isObjectFound = this.list[middleIndex] == this.value;
-        if (isObjectFound) {
-            objectIndex = middleIndex;
-            return  objectIndex;
-        } else if ((middleIndex >= rightIndex && !isObjectFound) || (middleIndex <= leftIndex && !isObjectFound)) {
+        isValueFound = this.list[middleIndex] == this.value;
+        if (isValueFound) {
+            valueIndex = middleIndex;
+            return  valueIndex;
+        } else if ((middleIndex >= rightIndex && !isValueFound) || (middleIndex <= leftIndex && !isValueFound)) {
             return -1;
         } else {
             if(this.value > list[middleIndex]) {
