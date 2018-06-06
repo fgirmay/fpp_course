@@ -2,14 +2,13 @@ package problem6;
 
 import problem5.Computer;
 
-
 /**
  * Created by fissehaye on 6/5/18.
  */
 public class Person implements Cloneable {
 
     String name;
-    Computer computer;
+    private Computer computer;
 
     public Person(String name, Computer computer) {
         this.name = name;
@@ -20,19 +19,23 @@ public class Person implements Cloneable {
 
 
     @Override
-    public Object clone() {
-
+    public Object clone()        {
         Person personClone = null;
-        
         try {
             personClone = (Person)super.clone();
 
         } catch (CloneNotSupportedException cnse) {
-
+            // Otherwise return new object
             return new Person(this.name, this.computer);
         }
-
         return personClone;
+    }
 
+    public Computer getComputer() {
+        return this.computer;
+    }
+
+    public void setComputer(Computer computer) {
+        this.computer = computer;
     }
 }

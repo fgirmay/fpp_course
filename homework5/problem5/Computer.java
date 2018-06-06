@@ -3,12 +3,7 @@ package problem5;
 /**
  * Created by fissehaye on 6/5/18.
  */
-public class Computer {
-
-//    String manufacturer
-//    String processor
-//    int ramSize
-//    double processorSpeed
+public class Computer implements Cloneable {
 
     private String manufacturer;
     private String processor;
@@ -21,16 +16,6 @@ public class Computer {
         this.processor = processor;
         this.ramSize = ramSize;
         this.processorSpeed = processorSpeed;
-    }
-
-    public Computer() {
-
-    }
-
-
-    public int getRamSize() {
-
-        return this.ramSize;
     }
 
     public double getProcessorSpeed() {
@@ -85,6 +70,26 @@ public class Computer {
         result = 29 * result + (int) (processorSpeedLong ^ (processorSpeedLong >>> 32));
 
         return result;
+    }
+
+    @Override
+    public Object clone()        {
+        Computer computerClone = null;
+        try {
+            computerClone = (Computer) super.clone();
+        } catch (CloneNotSupportedException cnse) {
+            // Otherwise return new object
+            return new Computer(this.manufacturer, this.processor, this.ramSize, this.processorSpeed);
+        }
+        return computerClone;
+    }
+
+    public int getRamSize() {
+        return this.ramSize;
+    }
+
+    public void setRamSize(int ramSize) {
+        this.ramSize = ramSize;
     }
 
 }
