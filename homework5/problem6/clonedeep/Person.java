@@ -1,9 +1,7 @@
-package problem6;
-
-import problem5.Computer;
+package problem6.clonedeep;
 
 /**
- * Created by fissehaye on 6/5/18.
+ * Created by fissehaye on 6/6/18.
  */
 public class Person implements Cloneable {
 
