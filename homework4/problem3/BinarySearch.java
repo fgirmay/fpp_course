@@ -14,7 +14,7 @@ public class BinarySearch {
 
         BinarySearch bs = new BinarySearch();
         bs.list = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        bs.value = 10;
+        bs.value = 6;
         bs.valueIndex = bs.binarySearch(bs.list, bs.value);
 
         System.out.println(bs.valueIndex);

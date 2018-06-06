@@ -11,13 +11,14 @@ public class PalindromeChecker {
 
         System.out.println(pc.isPalindrome("red rum sir is murder"));
         System.out.println(pc.isPalindrome("Step on no pets"));
-        System.out.println(pc.isPalindrome("MaaM"));
+        System.out.println(pc.isPalindrome("Maar"));
 
     }
 
     /*
         The method check if a string is palindrome ignoring cases and spaces. All other characters such as commas are not ignored.
-        For example, "Ma,m" is not palindrome to "Mam because of the comma. But "Mam" is palindrome to "Ma m"
+        For example, "Ma,m" is not palindrome to "Mam because of the comma. But "Mam" is palindrome to "Ma m". If the input is
+        empty or only with one character, I assumed that it's a palindrome.
      */
     public boolean isPalindrome(String string) {
 
@@ -31,7 +32,7 @@ public class PalindromeChecker {
                 return false;
         }
 
-        if (string.length() == 1) { //Base case 2
+        if (string.length() == 1) {
             return true;
         } else if (string.length() == 2 && string.charAt(0) == string.charAt(1)) {
             return true;
