@@ -77,6 +77,7 @@ public class Computer implements Cloneable {
         Computer computerClone = null;
         try {
             computerClone = (Computer) super.clone();
+
         } catch (CloneNotSupportedException cnse) {
             // Otherwise return new object
             return new Computer(this.manufacturer, this.processor, this.ramSize, this.processorSpeed);

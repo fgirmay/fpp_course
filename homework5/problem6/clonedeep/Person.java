@@ -17,11 +17,13 @@ public class Person implements Cloneable {
 
 
     @Override
-    public Object clone()        {
+    public Object clone() {
         Person personClone = null;
         try {
             personClone = (Person)super.clone();
 
+            // Need to clone the Computer reference variable too
+            personClone.computer = (Computer)this.computer.clone();
         } catch (CloneNotSupportedException cnse) {
             // Otherwise return new object
             return new Person(this.name, this.computer);
