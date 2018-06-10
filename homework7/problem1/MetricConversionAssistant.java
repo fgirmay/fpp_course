@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.geom.Arc2D;
 import java.math.BigDecimal;
 import java.math.MathContext;
 
@@ -45,11 +44,6 @@ public class MetricConversionAssistant implements ActionListener {
     private JTextField centigradeTextField;
 
     private JButton convertButton;
-
-
-    private StringBuilder reversedOutput = new StringBuilder();
-    private StringBuilder duplicateRemovedOutput = new StringBuilder();
-
 
     public static void main(String[] args) {
         MetricConversionAssistant mca = new MetricConversionAssistant();
