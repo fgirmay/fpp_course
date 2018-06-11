@@ -67,8 +67,15 @@ public class MyTable {
         MyTable t = new MyTable();
         t.add('a', "Andrew");
         t.add('b',"Billy");
-        t.add('w',"Willie");
-        System.out.println(t);
+        t.add('c',"Charlie");
+        String s = t.get('b');
+        System.out.println(s);
+
+        MyTable t1 = new MyTable();
+        t1.add('a', "Andrew");
+        t1.add('b',"Billy");
+        t1.add('w',"Willie");
+        System.out.println(t1);
 
     }
 }

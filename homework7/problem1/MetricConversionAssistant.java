@@ -2,15 +2,15 @@ package problem1;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.math.BigDecimal;
 import java.math.MathContext;
 
 /**
  * Created by fissehaye on 6/10/18.
  */
-public class MetricConversionAssistant implements ActionListener {
+public class MetricConversionAssistant {
+
+    private JFrame frame;
 
     private double mile;
     private double pound;
@@ -22,12 +22,11 @@ public class MetricConversionAssistant implements ActionListener {
     private double liter;
     private double centigrade;
 
-    private JFrame frame;
-
     private JLabel mileLabel;
     private JLabel poundLabel;
     private JLabel gallonLabel;
     private JLabel fahrenheitLabel;
+
     private JLabel kilometerLabel;
     private JLabel kilogramLabel;
     private JLabel litersLabel;
@@ -50,13 +49,9 @@ public class MetricConversionAssistant implements ActionListener {
         mca.displayGUI();
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-    }
-
     private void displayGUI() {
-        frame = new JFrame("Metric Conversion Assistant");
 
+        frame = new JFrame("Metric Conversion Assistant");
 
         mileLabel = new JLabel("Mile:");
         mileLabel.setBounds(50, 30, 100, 20);
@@ -70,8 +65,6 @@ public class MetricConversionAssistant implements ActionListener {
         fahrenheitLabel = new JLabel("Fahrenheit:");
         fahrenheitLabel.setBounds(50, 105, 100, 20);
 
-
-
         kilometerLabel = new JLabel("Kilometer:");
         kilometerLabel.setBounds(320, 30, 100, 20);
 
@@ -83,7 +76,6 @@ public class MetricConversionAssistant implements ActionListener {
 
         centigradeLabel = new JLabel("Centigrade:");
         centigradeLabel.setBounds(320, 105, 100, 20);
-
 
         mileTextField = new JTextField();
         mileTextField.setBounds(140,30, 120,20);
@@ -179,8 +171,8 @@ public class MetricConversionAssistant implements ActionListener {
         container.add(litersTextField);
         container.add(centigradeTextField);
 
-
         container.add(convertButton);
+
         frame.setSize(600,300);
         frame.setLayout(null);
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
