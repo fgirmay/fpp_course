@@ -123,7 +123,6 @@ public class MyStringList {
         int mid = (a+b)/2;
         if(strArray[mid] == val) return true;
         if(a > b) return false;
-        //if(val > strArray[mid]) return recurse(mid+1, b, val);
         if(val.compareTo(strArray[mid]) > 0) return recurse(mid+1, b, val);
         return recurse(a,mid-1,val);
     }
