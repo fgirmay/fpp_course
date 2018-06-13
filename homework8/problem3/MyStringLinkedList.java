@@ -38,28 +38,23 @@ public class MyStringLinkedList {
             // We are here means that we found the node where  the item should be
             // inserted but we need to check if it should be inserted before or after nextNode
 
-            if (nextNode.next == null) {
-
+            if (nextNode.next == null) { // Adding node at the last of the LinkedList
                 Node newNode = new Node(nextNode, item, null);
                 nextNode.next = newNode;
 
-            } else {
+            } else if (nextNode.previous == null) { // Adding node at the beginning of the LinkedList
 
-                if (nextNode.value.compareToIgnoreCase(item) < 0) {
+                Node newNode = new Node(nextNode.previous, item, nextNode);
+                header.previous = newNode;
+                header = newNode;
 
-                    Node newNode = new Node(nextNode, item, null);
-                    nextNode.next = newNode;
+            } else { // Adding node in the middle of the LinkedList
 
-                } else {
-
-                    Node newNode = new Node(nextNode.previous, item, nextNode);
-                    nextNode.previous.next = newNode;
-                    nextNode.previous = newNode;
-                }
+                Node newNode = new Node(nextNode.previous, item, nextNode);
+                nextNode.previous.next = newNode;
+                nextNode.previous = newNode;
             }
-
         }
-
 
     }  // insert in a Sorted Order
 
@@ -73,7 +68,6 @@ public class MyStringLinkedList {
             size++;
             startNode = startNode.next;
         }
-
         return size;
     }
 
@@ -196,12 +190,12 @@ public class MyStringLinkedList {
         mySL.addSort("vast");
         mySL.addSort("miniscule");
         mySL.addSort("small");
-        //mySL.addSort("Fissehaye");
+        mySL.addSort("bat");
 
-        //System.out.println(mySL);
+        System.out.println(mySL);
 
         //mySL.removeFirst();
-        System.out.println(mySL);
+        //System.out.println(mySL);
 
         //mySL.print();
 
@@ -209,7 +203,7 @@ public class MyStringLinkedList {
 
 //        mySL.removeLast();
 //        System.out.println(mySL);
-//        System.out.println(mySL.contains("numberless"));
+        System.out.println(mySL.contains("numberless"));
         System.out.println(mySL.contains("Fissehaye"));
         mySL.addSort("Fissehaye");
         System.out.println(mySL);
