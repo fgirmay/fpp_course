@@ -82,7 +82,6 @@ public class MyStringList {
     public void sort(){
         if(strArray == null || strArray.length <=1) return;
         int len = strArray.length;
-        int temp = 0;
         for(int i = 0; i < len; ++i){
             int nextMinPos = minpos(i,len-1);
             swap(i,nextMinPos);
@@ -95,6 +94,7 @@ public class MyStringList {
         strArray[j] = temp;
 
     }
+
     //find minimum of arr between the indices bottom and top
     public int minpos(int bottom, int top){
 
