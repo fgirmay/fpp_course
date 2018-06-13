@@ -20,7 +20,7 @@ public class MyStringLinkedList {
 
         } else if (header.next == null) {
 
-            if (header.value.compareTo(item) < 0) {
+            if (header.value.compareToIgnoreCase(item) < 0) {
                 Node newNode = new Node(header, item, null);
                 header.next = newNode;
             } else {
@@ -31,23 +31,31 @@ public class MyStringLinkedList {
 
             Node nextNode = header;
 
-            while (nextNode.next != null && nextNode.value.compareTo(item) < 0) {
+            while (nextNode.next != null && nextNode.value.compareToIgnoreCase(item) < 0) {
                 nextNode = nextNode.next;
             }
 
-            // We are here means that we found the node where  the value should be
-            // added is either before or after this node
+            // We are here means that we found the node where  the item should be
+            // inserted but we need to check if it should be inserted before or after nextNode
 
-            if (nextNode.value.compareTo(item) < 0) {
+            if (nextNode.next == null) {
 
                 Node newNode = new Node(nextNode, item, null);
                 nextNode.next = newNode;
 
             } else {
 
-                Node newNode = new Node(nextNode.previous, item, nextNode);
-                nextNode.previous.next = newNode;
-                nextNode.previous = newNode;
+                if (nextNode.value.compareToIgnoreCase(item) < 0) {
+
+                    Node newNode = new Node(nextNode, item, null);
+                    nextNode.next = newNode;
+
+                } else {
+
+                    Node newNode = new Node(nextNode.previous, item, nextNode);
+                    nextNode.previous.next = newNode;
+                    nextNode.previous = newNode;
+                }
             }
 
         }
@@ -63,6 +71,7 @@ public class MyStringLinkedList {
 
         while (startNode != null) {
             size++;
+            startNode = startNode.next;
         }
 
         return size;
@@ -97,21 +106,18 @@ public class MyStringLinkedList {
         Node node = header;
         while (node != null ) {
 
-            if (item.equals(node.value)) {
+            if (item.equalsIgnoreCase(node.value)) {
                 return true;
             }
-
             node = node.next;
         }
         return false;
     }
 
     public void removeFirst(){
-
-        Node temp = header;
-        header.next.previous = null;
-        temp.next = null;
+        Node tmp = header;
         header = header.next;
+        tmp.next = null;
         // Implement
     }
 
@@ -119,7 +125,7 @@ public class MyStringLinkedList {
         // Implement
         Node lastNode = header;
 
-        while (lastNode != null) {
+        while (lastNode.next != null) {
             lastNode = lastNode.next;
         }
 
@@ -133,6 +139,13 @@ public class MyStringLinkedList {
 
     //Write a recursive print method to display the elements in the list.
     void  print(Node n) {
+
+        if (n == null) {
+            return;
+        } else {
+            System.out.print(n.value + "->");
+            print(n.next);
+        }
     }
 
     public String toString() {
@@ -183,10 +196,24 @@ public class MyStringLinkedList {
         mySL.addSort("vast");
         mySL.addSort("miniscule");
         mySL.addSort("small");
+        //mySL.addSort("Fissehaye");
 
+        //System.out.println(mySL);
+
+        //mySL.removeFirst();
         System.out.println(mySL);
 
+        //mySL.print();
+
         //System.out.println(mySL.header.value);
+
+//        mySL.removeLast();
+//        System.out.println(mySL);
+//        System.out.println(mySL.contains("numberless"));
+        System.out.println(mySL.contains("Fissehaye"));
+        mySL.addSort("Fissehaye");
+        System.out.println(mySL);
+        System.out.println(mySL.contains("Fissehaye"));
 
     }
 }
