@@ -5,41 +5,80 @@ package problem1;
  */
 public class ArrayQueueImpl {
 
-    private int[] arr = new int[10];
+    private int[] arr;
     private int front = -1;
     private int rear = 0;
+    private int capacity = 0;
+    private int size = 0;
 
+    public ArrayQueueImpl(int capacity) {
+        this.capacity = capacity;
+        this.front = 0;
+        this.size = 0;
+        this.rear = 0;
+        this.arr = new int[this.capacity];
+    }
+
+    // return front without removing it
     public int peek() {
+        //implemented
 
-        //implement
-        return -1;
+        if (isEmpty()) {
+            return Integer.MIN_VALUE;
+        }
+
+        return arr[front];
     }
 
     public void enqueue(int obj){
-        //implement
+        //implemented
+        if (isFull()) {
+            resize();
+        }
+        rear = (rear + 1) % capacity;
         arr[rear] = obj;
         rear++;
+        size++;
     }
 
     public int dequeue() {
 
-        //implement
+        //implemented
+        if (isEmpty()) {
+            return Integer.MIN_VALUE;
+        }
 
-        return -1;
+        int value = arr[front];
+        front = (front + 1) % capacity;
+        size--;
+        return value;
     }
 
     public boolean isEmpty () {
-        //implement
-        return false;
+        //implemented
+        return (this.size == 0);
+    }
+
+    public boolean isFull() {
+        //implemented
+        return (capacity == size);
     }
 
     public int size () {
 
-        //implement
-        return 0;
+        //implemented
+        return this.size;
     }
 
     private void resize () {
-        //implement
+        //implemented
+        capacity = capacity * 2;
+        int[] resizedArray = new int[capacity];
+
+        for (int i = 0; i < arr.length; i++) {
+            resizedArray[i] = arr[i];
+        }
+
+        arr = resizedArray;
     }
 }

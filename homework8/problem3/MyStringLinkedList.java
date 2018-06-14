@@ -12,7 +12,6 @@ public class MyStringLinkedList {
     }
 
     public void addSort(String item){
-        // Implement
 
         // Add first
         if (header == null) {
@@ -57,8 +56,6 @@ public class MyStringLinkedList {
     }  // insert in a Sorted Order
 
     public int size(){
-
-        // Implement
         Node startNode = header;
         int size = 0;
 
@@ -70,7 +67,6 @@ public class MyStringLinkedList {
     }
 
     public boolean isEmpty(){
-        // Implement
         return (header == null);
     }
 
@@ -89,7 +85,6 @@ public class MyStringLinkedList {
     }
 
     public boolean contains(String item){
-        // Implement
         Node node = header;
         while (node != null ) {
 
@@ -118,7 +113,6 @@ public class MyStringLinkedList {
     }
 
     void removeLast(){
-        // Implement
 
         if (header == null) {
             return;
@@ -186,22 +180,35 @@ public class MyStringLinkedList {
         MyStringLinkedList mySL = new MyStringLinkedList();
         // Make use of the implemented methods
 
-        mySL.addSort("big");
-        mySL.addSort("cat");
-        mySL.addSort("tall");
-        mySL.addSort("short");
-        mySL.addSort("round");
-        mySL.addSort("square");
-        mySL.addSort("enormous");
-        mySL.addSort("tiny");
-        mySL.addSort("gargantuan");
-        mySL.addSort("lilliputian");
-        mySL.addSort("numberless");
-        mySL.addSort("none");
-        mySL.addSort("vast");
-        mySL.addSort("miniscule");
-        mySL.addSort("small");
-        mySL.addSort("bat");
+//        mySL.addSort("big");
+//        mySL.addSort("cat");
+//        mySL.addSort("tall");
+//        mySL.addSort("short");
+//        mySL.addSort("round");
+//        mySL.addSort("square");
+//        mySL.addSort("enormous");
+//        mySL.addSort("tiny");
+//        mySL.addSort("gargantuan");
+//        mySL.addSort("lilliputian");
+//        mySL.addSort("numberless");
+//        mySL.addSort("none");
+//        mySL.addSort("vast");
+//        mySL.addSort("miniscule");
+//        mySL.addSort("small");
+//        mySL.addSort("bat");
+
+        mySL.addSort("Apple");
+        mySL.addSort("Bannana");
+        mySL.addSort("Zebra");
+        mySL.addSort("Jamaica");
+        mySL.addSort("Ethiopia");
+        mySL.addSort("United States");
+        mySL.addSort("Cat");
+        mySL.addSort("Restaurant");
+        mySL.addSort("Research");
+        mySL.addSort("Police");
+
+        // Apple, Bannana, Zebra, Jamaica, Ethiopia, United States, Cat, Restaurant, Research, Police
 
         System.out.println(mySL);
 
@@ -214,11 +221,11 @@ public class MyStringLinkedList {
 
 //        mySL.removeLast();
 //        System.out.println(mySL);
-        System.out.println(mySL.contains("numberless"));
-        System.out.println(mySL.contains("Fissehaye"));
-        mySL.addSort("Fissehaye");
-        System.out.println(mySL);
-        System.out.println(mySL.contains("Fissehaye"));
+//        System.out.println(mySL.contains("numberless"));
+//        System.out.println(mySL.contains("Fissehaye"));
+//        mySL.addSort("Fissehaye");
+//        System.out.println(mySL);
+//        System.out.println(mySL.contains("Fissehaye"));
 
     }
 }
