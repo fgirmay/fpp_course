@@ -14,12 +14,11 @@ public class MyStringLinkedList {
     public void addSort(String item){
         // Implement
 
+        // Add first
         if (header == null) {
-
-            header = new Node(null, item, null);
-
+            Node newNode = new Node(null, item, null);
+            header = newNode;
         } else if (header.next == null) {
-
             if (header.value.compareToIgnoreCase(item) < 0) {
                 Node newNode = new Node(header, item, null);
                 header.next = newNode;
@@ -28,7 +27,6 @@ public class MyStringLinkedList {
                 header = newNode;
             }
         } else {
-
             Node nextNode = header;
 
             while (nextNode.next != null && nextNode.value.compareToIgnoreCase(item) < 0) {
@@ -77,21 +75,16 @@ public class MyStringLinkedList {
     }
 
     public Node getFirst(){
-        // Implement
         return header;
     }
 
     public Node getLast(){
-        // Implement
 
         // No need to check if header is null
         Node last = header;
-
-        while (last != null) {
-
+        while (last.next != null) {
             last = last.next;
         }
-
         return last;
     }
 
@@ -109,6 +102,15 @@ public class MyStringLinkedList {
     }
 
     public void removeFirst(){
+
+        if (header == null) {
+            return;
+        }
+
+        if (header.next == null) {
+            header = null;
+        }
+
         Node tmp = header;
         header = header.next;
         tmp.next = null;
@@ -117,6 +119,15 @@ public class MyStringLinkedList {
 
     void removeLast(){
         // Implement
+
+        if (header == null) {
+            return;
+        }
+
+        if (header.next == null) {
+            header = null;
+        }
+
         Node lastNode = header;
 
         while (lastNode.next != null) {
