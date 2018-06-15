@@ -23,7 +23,10 @@ public class LinkedListStackImpl<T> implements Stack1<T> {
     @Override
     public void push(T obj) {
 
-        Node node = new Node(top, obj);
+        Node node = new Node(null, top, obj);
+        if (top != null) {
+            top.previous = node;
+        }
         top = node;
         size++;
     }
@@ -35,10 +38,15 @@ public class LinkedListStackImpl<T> implements Stack1<T> {
             System.out.println("There is no elemement");
         }
 
-        Node previousTop = top;
-        top = previousTop.next;
+        Node tmp = top;
+
+        top = tmp.next;
+
+        tmp.next = null; // Make it ready for garbage collection
+
+        top.previous = null;
         size--;
-        return previousTop.obj;
+        return tmp.obj;
     }
 
     @Override
@@ -63,9 +71,11 @@ public class LinkedListStackImpl<T> implements Stack1<T> {
 
     private class Node {
         Node next;
+        Node previous;
         T obj;
 
-        Node(Node next, T obj) {
+        Node(Node previous, Node next, T obj) {
+            this.previous = previous;
             this.next = next;
             this.obj = obj;
         }
