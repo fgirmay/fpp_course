@@ -7,90 +7,158 @@ public class MyBST {
 
     BinaryNode root;
 
-    public void insert(Integer item) {
 
-        if (root == null) {
-            root = new BinaryNode(null, null, item);
-            return;
-        }
+    public void preOrder() {
 
+        preOrder(root);
     }
 
-    private void insert(BinaryNode left, BinaryNode right, Integer item) {
+    private void preOrder(BinaryNode node) {
 
-        if (item < left.item) {
+        if (node != null) {
 
-            if (left.left == null) {
-                BinaryNode nbn = new BinaryNode(null, null, item);
-                left.left = nbn;
+            System.out.print(node.item + " ");
+            preOrder(node.left);
+            preOrder(node.right);
+        }
+    }
+
+
+    public void postOrder() {
+
+        postOrder(root);
+    }
+
+    private void postOrder(BinaryNode node) {
+
+        if (node != null) {
+
+            postOrder(node.left);
+            postOrder(node.right);
+            System.out.print(node.item + " ");
+        }
+    }
+
+    public boolean contains(Integer key) {
+
+        return contains(root, key);
+    }
+
+    private boolean contains(BinaryNode node, Integer key) {
+
+        boolean found = false;
+
+        while ((node != null) && !found) {
+
+            int rval = node.item;
+
+            if (key < rval) {
+
+                node = node.left;
+
+            } else if (key > rval) {
+
+                node = node.right;
+
             } else {
 
-
+                found = true;
+                break;
             }
 
-
-        } else if (item > right.item && right.item == null) {
-            BinaryNode nbn = new BinaryNode(null, null, item);
-            right.right = nbn;
-        } else {
-
+            found = contains(node, key);
         }
+
+        return found;
     }
 
-    public void preOrder(){
+    public Integer getRoot() {
 
-        preOrder(root);
-    }
-    private void preOrder(BinaryNode t){
-        //implement
-    }
-    public void postOrder() {
-        preOrder(root);
-    }
+        if (root != null) {
 
-    private void postOrder(BinaryNode t){
-        //implement
+            return root.item;
+        }
+
+        return Integer.MIN_VALUE;
     }
 
-    public boolean contains(Integer key){
-        //implement
-        return false;
-    }
+    public Integer leafNodes() {
 
-    public Integer getRoot(){
-        //implement
-        return 0;
-    }
-
-    public Integer leafNodes(){
         return leafNodes(root);
     }
 
-    private int leafNodes(BinaryNode t){
-        //Implement
-        return 0;
+    private Integer leafNodes(BinaryNode node) {
+
+        if(node == null) {
+
+            return 0;
+
+        } else {
+
+            if (node.left == null && node.right == null) {
+                return 1;
+
+            } else {
+
+                return leafNodes(node.left) + leafNodes(node.right);
+            }
+        }
     }
 
+    public int size() {
 
-    public int size(){
-        //implement
-        return 0;
+        return size(root);
+    }
+
+    private int size(BinaryNode node) {
+
+        if (node == null) {
+
+            return 0;
+
+        } else {
+
+            int size = 1;
+            size += size(node.left);
+            size += size(node.right);
+            return size;
+        }
     }
 
     public boolean isEmpty(){
-        //implement
-        // check the tree is empty or not
-        return false;
+
+        return root == null;
     }
 
     public Integer findMin(){
+        
         return findMin(root);
     }
 
-    private Integer findMin(BinaryNode root){
-        //implement
-        return 0;
+    public Integer findMin(BinaryNode node) {
+
+        if (node == null) {
+
+            return Integer.MAX_VALUE;
+        }
+
+        int min = node.item;
+        int leftMin = findMin(node.left);
+        int rightMin = findMin(node.right);
+
+        if (leftMin < min) {
+
+            min = leftMin;
+        }
+
+        if (rightMin < min) {
+
+            min = rightMin;
+        }
+
+        return min;
     }
+
 
     public Integer findMax(){
 
@@ -98,10 +166,54 @@ public class MyBST {
 
     }
 
-    public Integer findMax(BinaryNode root){
-        //implement
-        return 0;
+    public Integer findMax(BinaryNode node) {
+
+        if (node == null) {
+            return Integer.MIN_VALUE;
+        }
+
+        int max = node.item;
+        int leftMax = findMax(node.left);
+        int rightMax = findMax(node.right);
+
+        if (leftMax > max) {
+            max = leftMax;
+        }
+
+        if (rightMax > max) {
+            max = rightMax;
+        }
+
+        return max;
     }
+
+    public void insert(Integer key) {
+
+        root = insert(root, key);
+    }
+
+    private BinaryNode insert(BinaryNode root, Integer key) {
+
+        /* If the tree is empty, return a new node */
+        if (root == null) {
+
+            root = new BinaryNode(null, null, key);
+            return root;
+        }
+
+        /* Otherwise, recur down the tree */
+        if (key < root.item) {
+
+            root.left = insert(root.left, key);
+
+        } else if (key > root.item) {
+
+            root.right = insert(root.right, key);
+        }
+
+        return root;
+    }
+
 
      private class BinaryNode {
 
@@ -110,9 +222,11 @@ public class MyBST {
          private Integer item;
 
          private BinaryNode(BinaryNode left, BinaryNode right, Integer item){
+
              this.left = left;
              this.right = right;
              this.item = item;
          }
      }
+
 }
