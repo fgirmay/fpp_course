@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by fissehaye on 6/4/18.
  */
-public class Main {
+public class Main2 {
 
     public static void main(String[] args) {
 
