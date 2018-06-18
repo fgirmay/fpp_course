@@ -28,5 +28,12 @@ public class CustomerAccount {
         }
 
         balance = balance - amount;
+
+        System.out.println("You have withdrawn: " + amount + " and the your remaining balance is: " + balance);
+
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }
