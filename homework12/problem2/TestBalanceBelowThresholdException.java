@@ -3,7 +3,7 @@ package problem2;
 /**
  * Created by fissehaye on 6/18/18.
  */
-public class DriverClass {
+public class TestBalanceBelowThresholdException {
 
     public static void main(String[] args) throws InsufficientBalanceException, BalanceBelowThresholdException{
 
