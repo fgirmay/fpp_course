@@ -12,6 +12,6 @@ public class BalanceBelowThresholdException extends Exception {
     }
 
     public BalanceBelowThresholdException(String message) {
-        this.message = message;
+        super(message);
     }
 }

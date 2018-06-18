@@ -7,11 +7,12 @@ public class InsufficientBalanceException extends Exception {
 
     private String message;
 
-    public InsufficientBalanceException(String message) {
-        this.message = message;
+    public InsufficientBalanceException() {
+        message = "There is no sufficient balance to withdraw!";
     }
 
-    public String getMessage() {
-        return message;
+    public InsufficientBalanceException(String message) {
+        super(message);
     }
+
 }
