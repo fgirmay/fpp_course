@@ -7,9 +7,7 @@ public class TestBalanceBelowThresholdException {
 
     public static void main(String[] args) throws InsufficientBalanceException, BalanceBelowThresholdException{
 
-        CustomerAccount bbte = new CustomerAccount();
-
-        bbte.setBalance(500);
+        CustomerAccount bbte = new CustomerAccount("Fissehaye", "F965439644", 500);
 
         bbte.withdraw(300);
 
