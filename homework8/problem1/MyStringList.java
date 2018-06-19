@@ -51,19 +51,21 @@ public class MyStringList {
 
     public boolean remove(String s){
         if(size == 0) return false;
-        int index = -1;
+        boolean isFound = false;
+        int index = 0;
         for(int i = 0; i < size; ++i ){
             if(strArray[i].equals(s)){
+                isFound = true;
                 index = i;
                 break;
             }
         }
-        if(index==-1) return false;
+        if(!isFound) return false;
         String[] temp = new String[strArray.length];
         System.arraycopy(strArray,0,temp,0,index);
         System.arraycopy(strArray,index+1,temp,index,strArray.length-(index+1));
         strArray = temp;
-        --size;
+        size--;
         return true;
     }
 
@@ -123,7 +125,9 @@ public class MyStringList {
         int mid = (a+b)/2;
         if(strArray[mid] == val) return true;
         if(a > b) return false;
-        if(val.compareTo(strArray[mid]) > 0) return recurse(mid+1, b, val);
+        if(val.compareTo(strArray[mid]) > 0) {
+            return recurse(mid+1, b, val);
+        }
         return recurse(a,mid-1,val);
     }
     /***********************************************************************************/
@@ -142,7 +146,6 @@ public class MyStringList {
 
     public static void main(String[] args){
         MyStringList list = new MyStringList();
-
 
         list.add("big");
         list.add("small");

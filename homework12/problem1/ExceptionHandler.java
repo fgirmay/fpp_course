@@ -8,8 +8,6 @@ import java.util.Scanner;
  */
 public class ExceptionHandler {
 
-    //get the input of mark in the range of 0 to 100
-
     public static void main(String[] args) {
 
         int mark = 0;
@@ -22,7 +20,7 @@ public class ExceptionHandler {
 
             mark = scanner.nextInt();
 
-            if (mark < 0) {
+            if (mark < 0 && mark > 100) {
                 throw new IllegalArgumentException();
             }
 
