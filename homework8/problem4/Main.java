@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class Main {
 
-    List<Marketing> marketingList = new ArrayList<>();
+    static List<Marketing> marketingList = new ArrayList<>();
 
     public static void main(String[] args) {
 
         Main main = new Main();
 
-        main.marketingList = new ArrayList<>();
+        marketingList = new ArrayList<>();
 
         Marketing marketing1 = new Marketing("Fissehaye", "Macbook Pro", 2499);
         Marketing marketing2 = new Marketing("Henok", "iPhone X", 999.99);
@@ -23,23 +23,23 @@ public class Main {
         Marketing marketing4 = new Marketing("Aman", "HP Laptop", 599.99);
         Marketing marketing5 = new Marketing("Teddy", "Surface Laptop", 1200);
 
-        main.marketingList.add(marketing1);
-        main.marketingList.add(marketing2);
-        main.marketingList.add(marketing3);
-        main.marketingList.add(marketing4);
-        main.marketingList.add(marketing5);
+        marketingList.add(marketing1);
+        marketingList.add(marketing2);
+        marketingList.add(marketing3);
+        marketingList.add(marketing4);
+        marketingList.add(marketing5);
 
-        System.out.println("The size of the list before deletion is " + main.marketingList.size());
+        System.out.println("The size of the list before deletion is " + marketingList.size());
 
-        main.marketingList.remove(2);
+        marketingList.remove(2);
 
-        System.out.println("The size of the list after removing the item in the second index is " + main.marketingList.size());
+        System.out.println("The size of the list after removing the item in the second index is " + marketingList.size());
 
-        Collections.sort(main.marketingList, new MarketingComparator());
+        Collections.sort(marketingList, new MarketingComparator());
 
         System.out.println(main);
 
-        List<Marketing> result = listMoreThan1000(main.marketingList);
+        List<Marketing> result = listMoreThan1000(marketingList);
 
         System.out.println(result);
 

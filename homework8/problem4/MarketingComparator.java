@@ -10,8 +10,9 @@ public class MarketingComparator implements Comparator<Marketing> {
     @Override
     public int compare(Marketing o1, Marketing o2) {
 
-        return  Double.compare(o1.getSalesAmount(), o2.getSalesAmount());
+        //return  Double.compare(o1.getSalesAmount(), o2.getSalesAmount());
 
-        //return o1.getEmployeeName().compareTo(o2.getEmployeeName());
+
+        return o1.getEmployeeName().compareTo(o2.getEmployeeName());
     }
 }

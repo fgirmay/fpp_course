@@ -4,6 +4,8 @@ package problem3;
  * Created by fissehaye on 6/15/18.
  */
 
+import java.util.Objects;
+
 /** NOTE: You must override equals in this class */
 public class Employee {
 
@@ -44,7 +46,8 @@ public class Employee {
 
         Employee employee = (Employee) obj;
 
-        if (employee.name.equals(this.name) && employee.salary == this.salary) {
+        if (employee.name.equals(name) && employee.salary == salary) {
+
             return true;
         }
 
@@ -54,11 +57,12 @@ public class Employee {
     @Override
     public int hashCode() {
 
-        int result = 29;
-
-        result = result * 29 + salary;
-        result = result * 29 + name.hashCode();
-
-        return result;
+//        int result = 29;
+//
+//        result = result * 29 + salary;
+//        result = result * 29 + name.hashCode();
+//
+//        return result;
+        return Objects.hash(salary, name);
     }
 }
