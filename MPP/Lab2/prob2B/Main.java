@@ -10,7 +10,14 @@ public class Main {
         int orderId = 1;
 
         Order order = new Order(orderId);
-        OrderLine orderLine = new OrderLine(order);
+
+        OrderLine orderLine1 = new OrderLine(order);
+        OrderLine orderLine2 = new OrderLine(order);
+        OrderLine orderLine3 = new OrderLine(order);
+
+        order.addOrderLines(orderLine1);
+        order.addOrderLines(orderLine2);
+        order.addOrderLines(orderLine3);
 
     }
 }

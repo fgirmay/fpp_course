@@ -9,11 +9,14 @@ import java.util.List;
 public class Order {
 
     private int orderNum;
-    private List<OrderLine> orderLines;
+    private List<OrderLine> orderLines = new ArrayList<>();
 
     public Order(int orderNum){
         this.orderNum = orderNum;
-        this.orderLines = new ArrayList<>();
+    }
+
+    public void addOrderLines(OrderLine orderLine) {
+        orderLines.add(orderLine);
     }
 
 }
