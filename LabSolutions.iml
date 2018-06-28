@@ -16,6 +16,9 @@
       <sourceFolder url="file://$MODULE_DIR$/FPPStandard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/homework12" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MPP/Lab2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson3/labs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MPP/lesson3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MPP/Lab3" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

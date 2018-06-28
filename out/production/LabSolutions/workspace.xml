@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91b8e345-14dc-4362-9aca-0fb1f3df5f94" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/Accounts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/Bank.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/CertificateDeposit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/CheckingAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/RandomNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/Additional/SavingsAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Accessory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Bicycle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Brand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Inventory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/april2017/Product.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/comparator/CityComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/comparator/TopCity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/comparator/Type.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem1/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem1/EmployeeAdmin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem1/EmployeeComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem2/EmployeeData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem2/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem2/Staff.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem2/Statistics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/december2016/problem2/Teacher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem1/ArrayQueueImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem1/QueueException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/Account.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/AccountManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/CheckingAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/RetirementAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/january2017/problem2/SavingsAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/Admin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/FulltimeStudent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/FulltimeTranscriptRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/ParttimeStudent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/ParttimeTranscriptRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/SemesterTranscript.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/june2017/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/linkedlist/DoublyLinkedDeleteFirst.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2017/Automobile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2017/Bicycle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2017/Boat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2017/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2017/MilesCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2017/Vehicle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2018/problem1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPPStandard/march2018/problem1/MinDoublyLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework10/problem1/MyBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem1/Admin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem1/Key.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem1/Standing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem1/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem1/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem2/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem2/EmployeeAdmin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem2/EmployeeComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem2/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem3/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem3/EmployeeInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem3/TestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework11/problem3/util/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework12/problem1/ExceptionHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework12/problem2/BalanceBelowThresholdException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework12/problem2/CustomerAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework12/problem2/InsufficientBalanceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework12/problem2/TestBalanceBelowThresholdException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework12/problem2/TestInsufficientBalanceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog6.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog7.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/Prog8.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework2/RandomNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/homework3.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem1/Address.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem1/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem2/Account.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem2/AccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem2/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem2/MainTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem2/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem3/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem3/employeeinfo/Account.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem3/employeeinfo/AccountType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem3/employeeinfo/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem3/employeeinfo/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem4/Circle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem4/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem4/Rectangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem4/Triangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework3/problem5/MyDate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework4/problem1/StringMerger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework4/problem2/MinimumCharFinder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework4/problem3/BinarySearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework4/problem4/PalindromeChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework4/problem5/BinarySearchTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework4/problem5/PalindromeCheckerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem1/Circle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem1/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem1/Rectangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem1/Shape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem1/Square.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem2/DeptEmployee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem2/Main2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem2/Professor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem2/Secretary.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem3/DownwardHat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem3/Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem3/FaceMaker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem3/Figure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem3/UpwardHat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem3/Vertical.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem4/BasedCommissionEmployee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem4/CommissionEmployee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem4/Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem4/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem4/HourlyEmployee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem4/SalariedEmployee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem5/Computer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem5/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem6/clonedeep/Computer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem6/clonedeep/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem6/clonedeep/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem6/cloneshallow/Computer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem6/cloneshallow/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework5/problem6/cloneshallow/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework6/problem1/StringOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework6/problem2/RainbowBackground.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework7/problem1/MetricConversionAssistant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework7/problem2/MyTable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem1/MyStringList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem1/MyStringListDriver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem2/MyPersonList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem2/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem2/PersonComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem3/MyStringLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem4/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem4/Marketing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework8/problem4/MarketingComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework9/problem1/ArrayQueueImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework9/problem1/Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework9/problem2/Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework9/problem2/LinkedListStackImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework9/problem2/NoElementExistsException.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework_Solution.iml" afterPath="$PROJECT_DIR$/LabSolutions.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MPP/Lab2/prob2B/OrderLine.java" afterPath="$PROJECT_DIR$/MPP/Lab2/prob2B/OrderLine.java" />
+    </list>
+    <ignored path="Homework_Solution.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Homework_Solution" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2A/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2B/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#252#253#0" expanded="false" />
+                <element signature="e#292#293#0" expanded="false" />
+                <element signature="e#346#347#0" expanded="false" />
+                <element signature="e#387#388#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2B/OrderLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradeReport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2A/GradeReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#159#160#0" expanded="false" />
+                <element signature="e#197#198#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob1/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob1/PersonWithJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Landlord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Landlord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Building.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Apartment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Apartment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="107" selection-start-line="34" selection-start-column="107" selection-end-line="34" selection-end-column="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/00-prerequisites" value="2977609842000" />
+        <entry key="$USER_HOME$/IdeaProjects/01-bean" value="2976934686000" />
+        <entry key="$USER_HOME$/IdeaProjects/tdd-java-ch04-ship" value="2976779912000" />
+        <entry key="$USER_HOME$/IdeaProjects/tdd-java-ch06-tic-tac-toe-mongo" value="2976896908000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/homework12/problem2/BalanceBelowThresholdException.java" />
+        <option value="$PROJECT_DIR$/homework12/problem2/TestBalanceBelowThresholdException.java" />
+        <option value="$PROJECT_DIR$/homework12/problem2/TestInsufficientBalanceException.java" />
+        <option value="$PROJECT_DIR$/homework12/problem2/CustomerAccount.java" />
+        <option value="$PROJECT_DIR$/homework8/problem1/MyStringListDriver.java" />
+        <option value="$PROJECT_DIR$/homework8/problem1/MyStringList.java" />
+        <option value="$PROJECT_DIR$/homework12/problem1/ExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/homework8/problem4/Main.java" />
+        <option value="$PROJECT_DIR$/homework8/problem4/MarketingComparator.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/Employee.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/Main.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/EmployeeAdmin.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/EmployeeComparator.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/problem1/Main.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/problem2/EmployeeData.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/problem2/Staff.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/problem2/Teacher.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/problem2/Statistics.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/december2016/problem2/Main.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/ArrayQueueImpl.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem1/ArrayQueueImpl.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem1/Main.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem2/Account.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem2/CheckingAccount.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem2/RetirementAccount.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem2/SavingsAccount.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem2/AccountManager.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/january2017/problem2/Employee.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/march2018/problem1/Main.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/march2018/problem1/MinDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/homework11/problem3/Employee.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/RandomNumbers.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/CertificateDeposit.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/CheckingAccount.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/SavingsAccount.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/Accounts.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/Bank.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/Additional/Main.java" />
+        <option value="$PROJECT_DIR$/FPPStandard/comparator/CityComparator.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab2/prob2A/GradeReport.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab2/prob2A/Student.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab2/prob2A/Main.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab2/prob2B/Order.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab2/prob2B/Main.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab2/prob2B/OrderLine.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob1/Person.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob1/PersonWithJob.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Apartment.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Landlord.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Building.java" />
+        <option value="$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="822" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prob4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prob2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LabSolutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/homework4/problem5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="problem5" />
+      <recent name="problem4" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="problem1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MPP/Lab3" />
+      <recent name="$PROJECT_DIR$/MPP" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/FPPStandard/comparator" />
+      <recent name="$PROJECT_DIR$/FPPStandard/Additional" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="employeeinfo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MPP/Lab2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="false" name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="problem1.Driver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LabSolutions" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="prob2A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="prob2A.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LabSolutions" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PersonWithJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson3.labs.prob1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lesson3.labs.prob1.PersonWithJob" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LabSolutions" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson3.labs.prob1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lesson3.labs.prob1.Person" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LabSolutions" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson3.labs.prob2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lesson3.labs.prob2.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LabSolutions" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="homework3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Driver" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PersonWithJob" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Person" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PersonWithJob" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Person" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Driver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91b8e345-14dc-4362-9aca-0fb1f3df5f94" name="Default" comment="" />
+      <created>1527807618271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527807618271</updated>
+      <workItem from="1527807619674" duration="21207000" />
+      <workItem from="1527858922211" duration="661000" />
+      <workItem from="1527878571870" duration="4341000" />
+      <workItem from="1527970670679" duration="10193000" />
+      <workItem from="1528040263108" duration="1612000" />
+      <workItem from="1528041889874" duration="16000" />
+      <workItem from="1528048013074" duration="3735000" />
+      <workItem from="1528076017217" duration="8277000" />
+      <workItem from="1528137080883" duration="16139000" />
+      <workItem from="1528223199723" duration="3720000" />
+      <workItem from="1528236673102" duration="1424000" />
+      <workItem from="1528249063309" duration="123000" />
+      <workItem from="1528251071998" duration="1272000" />
+      <workItem from="1528252898661" duration="3741000" />
+      <workItem from="1528287609924" duration="2012000" />
+      <workItem from="1528317370073" duration="14278000" />
+      <workItem from="1528370386218" duration="20000" />
+      <workItem from="1528475724331" duration="138000" />
+      <workItem from="1528475959791" duration="209000" />
+      <workItem from="1528548529021" duration="534000" />
+      <workItem from="1528569034758" duration="17000" />
+      <workItem from="1528652674359" duration="12253000" />
+      <workItem from="1528691512380" duration="299000" />
+      <workItem from="1528750396197" duration="7853000" />
+      <workItem from="1528829941695" duration="3467000" />
+      <workItem from="1528837577287" duration="44000" />
+      <workItem from="1528842076970" duration="5601000" />
+      <workItem from="1528853131921" duration="267000" />
+      <workItem from="1528853856094" duration="13321000" />
+      <workItem from="1528916768949" duration="2019000" />
+      <workItem from="1528926955358" duration="1860000" />
+      <workItem from="1528930466364" duration="7000" />
+      <workItem from="1528937892294" duration="902000" />
+      <workItem from="1528939020437" duration="6482000" />
+      <workItem from="1528976099170" duration="2506000" />
+      <workItem from="1528979662532" duration="68000" />
+      <workItem from="1528979744566" duration="1374000" />
+      <workItem from="1529010374752" duration="3303000" />
+      <workItem from="1529030107679" duration="4433000" />
+      <workItem from="1529074708263" duration="2582000" />
+      <workItem from="1529089329582" duration="3684000" />
+      <workItem from="1529102118070" duration="8000" />
+      <workItem from="1529111410503" duration="10384000" />
+      <workItem from="1529165416626" duration="50000" />
+      <workItem from="1529189622236" duration="47000" />
+      <workItem from="1529189715450" duration="18000" />
+      <workItem from="1529189777456" duration="6000" />
+      <workItem from="1529201386610" duration="5768000" />
+      <workItem from="1529241469715" duration="3000" />
+      <workItem from="1529241525423" duration="233000" />
+      <workItem from="1529340005840" duration="4060000" />
+      <workItem from="1529371269986" duration="2164000" />
+      <workItem from="1529374091565" duration="4445000" />
+      <workItem from="1529529585535" duration="13573000" />
+      <workItem from="1529862985298" duration="24000" />
+      <workItem from="1529863083927" duration="270000" />
+      <workItem from="1530068068669" duration="3224000" />
+      <workItem from="1530106015750" duration="934000" />
+      <workItem from="1530107067761" duration="267000" />
+      <workItem from="1530111308126" duration="924000" />
+      <workItem from="1530136285590" duration="86000" />
+      <workItem from="1530136434640" duration="106000" />
+      <workItem from="1530136804564" duration="3930000" />
+      <workItem from="1530183756735" duration="2068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BinarySearchTest - 2018.06.03 at 13h 42m 59s.xml">
+      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest - 2018.06.03 at 21h 21m 06s.xml">
+      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest - 2018.06.03 at 23h 02m 47s.xml">
+      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeCheckerTest - 2018.06.03 at 13h 01m 29s.xml">
+      <configuration name="PalindromeCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeCheckerTest - 2018.06.03 at 13h 32m 54s.xml">
+      <configuration name="PalindromeCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeCheckerTest - 2018.06.03 at 13h 34m 35s.xml">
+      <configuration name="PalindromeCheckerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeCheckerTest - 2018.06.03 at 23h 02m 55s.xml">
+      <configuration name="PalindromeCheckerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="218586000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30721393" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21268657" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22246066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32577905" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FPPStandard/december2016/problem2/EmployeeData.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/december2016/problem2/Main.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/december2016/problem2/Statistics.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/december2016/problem1/EmployeeAdmin.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/december2016/problem2/Teacher.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem1/QueueException.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem1/Main.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem1/ArrayQueueImpl.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/SavingsAccount.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/RetirementAccount.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/Employee.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2158" column="30" selection-start-line="2158" selection-start-column="30" selection-end-line="2158" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/Main.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/CheckingAccount.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/AccountManager.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/march2018/problem1/Main.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/march2018/problem1/MinDoublyLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/homework11/problem3/util/Util.java" />
+    <entry file="file://$PROJECT_DIR$/homework11/problem3/TestData.java" />
+    <entry file="file://$PROJECT_DIR$/homework11/problem3/EmployeeInfo.java" />
+    <entry file="file://$PROJECT_DIR$/homework11/problem3/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/january2017/problem2/Account.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/RandomNumbers.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/SavingsAccount.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/CertificateDeposit.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/Accounts.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/Bank.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/Main.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/Additional/CheckingAccount.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/comparator/CityComparator.java" />
+    <entry file="file://$PROJECT_DIR$/FPPStandard/comparator/TopCity.java" />
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2A/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2B/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob4/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob4/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob4/TranscriptEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob4/StudentSectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2B/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework9/problem1/Driver.java" />
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2B/OrderLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/labs/prob1/Person.java" />
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2A/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/lesson3/labs/prob1/Person.java" />
+    <entry file="file://$PROJECT_DIR$/MPP/lesson3/labs/prob1/PersonWithJob.java" />
+    <entry file="file://$PROJECT_DIR$/MPP/Lab2/prob2A/GradeReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#159#160#0" expanded="false" />
+            <element signature="e#197#198#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob1/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob1/PersonWithJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Apartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Landlord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPP/Lab3/lesson3/labs/prob2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="107" selection-start-line="34" selection-start-column="107" selection-end-line="34" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Homework_Solution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

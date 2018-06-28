@@ -9,6 +9,7 @@ public class OrderLine {
 
     public OrderLine(Order order) {
         this.order = order;
+        this.order.addOrderLines(this);
     }
 
 }
